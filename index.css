@@ -1,36 +1,29 @@
 #searchbar{
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  #searchbox{
-    width:15em;
-    height:1.3em;
-    font-size:3em;
-    font-family:monospace,sans-serif,Arial;
-    color:#2B2B2B;
-    border-width:5px;
-    border-style:groove;
-    border-color:blue;
-    border-radius: 30px;
-  }
-  
-  body{
-    background-color:aqua;
-  }
-  
-  #searchbutton{
-    height:50px;
-    width:auto;
-    font-size:2em;
-    background-color:#DB24B7;
-    font-weight:700;
-    border:6px solid #8b15ea;
-    border-radius:20px;
-  }
-  
-  #searchbutton:hover{
-    background-color:#24db48;
-  }
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#searchbox{
+  width:15em;
+  height:1.3em;
+  font-size:3em;
+  font-family:monospace,sans-serif,Arial;
+  color:#2B2B2B;
+  border-width:1px;
+  border-style:groove;
+  border-radius: 30px;
+}
+
+
+
+#searchbutton{
+  height:50px;
+  width:auto;
+  font-size:2em;
+  font-weight:700;
+  border:1px solid ;
+  border-radius:20px;
+}
+
