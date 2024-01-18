@@ -1,0 +1,28 @@
+#searchbutton{
+    background-color:#4d90fe;
+    border: 1px solid #3079ed;
+    color:white;
+    height:1.6em;
+    font-size:3em;
+  }
+  
+  #spacer{
+    padding-top:2em;
+  }
+  
+  .searchbox{
+    padding-left:8px;
+  }
+  
+  table{
+    padding-top:3em;
+    display:flex;
+    flex-flow:row wrap;
+    border-collapse: separate;
+    border-spacing: 15px;
+  }
+  
+  body{
+    display: flex;
+    justify-content: left;
+  }
