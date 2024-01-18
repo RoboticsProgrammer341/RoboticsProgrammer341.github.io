@@ -1,0 +1,21 @@
+#searchbar{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #searchbox{
+    width:15em;
+    height:1.3em;
+    font-size:3em;
+    color:grey;
+    border-width:5px;
+    border-style:groove;
+    border-color:blue;
+    border-radius: 30px;
+  }
+  
+  body{
+    background-color:aqua;
+  }
