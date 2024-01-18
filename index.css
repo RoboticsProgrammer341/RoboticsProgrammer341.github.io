@@ -9,7 +9,8 @@
     width:15em;
     height:1.3em;
     font-size:3em;
-    color:grey;
+    font-family:monospace,sans-serif,Arial;
+    color:#2B2B2B;
     border-width:5px;
     border-style:groove;
     border-color:blue;
@@ -18,4 +19,18 @@
   
   body{
     background-color:aqua;
+  }
+  
+  #searchbutton{
+    height:50px;
+    width:auto;
+    font-size:2em;
+    background-color:#DB24B7;
+    font-weight:700;
+    border:6px solid #8b15ea;
+    border-radius:20px;
+  }
+  
+  #searchbutton:hover{
+    background-color:#24db48;
   }
