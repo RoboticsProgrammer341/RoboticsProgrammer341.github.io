@@ -27,3 +27,16 @@
   border-radius:20px;
 }
 
+body{
+  display: flex;
+  justify-content: left;
+}
+
+#aligner {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    gap: 10px; /* Adjust the value to set the desired space */
+    position: absolute;
+    top: -1;
+    right: 0;
+}
